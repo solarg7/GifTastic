@@ -1,0 +1,20 @@
+.widthRating{
+	max-width: 100px;
+
+}
+
+.gifCss{
+	color: orange;
+	text-align: center;
+	
+
+    width: auto;
+    height: auto;
+    border-style: solid;
+    padding: 2px;
+    float: left;
+    margin: 20px;
+
+
+
+}
