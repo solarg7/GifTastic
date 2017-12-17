@@ -4,17 +4,23 @@
 }
 
 .gifCss{
-	color: orange;
+	color: blue;
 	text-align: center;
 	
 
     width: auto;
     height: auto;
     border-style: solid;
-    padding: 2px;
+    padding: 6px;
     float: left;
-    margin: 20px;
+    margin: 6px;
+    background: gray;
+}
 
-
+.button{
+	margin: 6px;
 
 }
+
+
+
