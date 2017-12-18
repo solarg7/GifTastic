@@ -23,4 +23,20 @@
 }
 
 
+.animal{
+	margin: 6px;
 
+}
+
+#buttonContainer{
+	background-color: blue;
+}
+
+
+#searchTerm{
+	background-color: blue;
+}
+
+#gifContainer{
+	background-color: blue;
+}

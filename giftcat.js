@@ -4,7 +4,9 @@ window.onload = function() {
 
 		
 		//
-		var animals = [];
+		var animals = ["monkey", "elefant", "dog"];
+
+		buttonAddAnimal();
 
 		//function for displaying animal buttons
 		function buttonAddAnimal(){
@@ -33,8 +35,9 @@ window.onload = function() {
 
 				//add the button to the HTML
 				$("#buttonContainer"). append(buttonAux);
-				secondAction();
+				
 			}
+			secondAction();
 		}
 
 
@@ -69,8 +72,17 @@ window.onload = function() {
 
 				console.log("hola61");
 
+				$("#gifContainer").empty();
+
+
+
+
+
 				//the "this" keyword refers to the button that was clicked
 				var animalCall = $(this).attr("data-name");
+
+
+				//animalCall = $(this).attr("data-name");
 
 				//built a URL to search Giphy for the animals from the quote
 				var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
@@ -84,7 +96,9 @@ window.onload = function() {
 		          // After the data comes back from the API
 		          .done(function(response) {
 		            	// Storing an array of results in the results variable
-		            	var listResult = response.data;
+		            	var listResult = [];
+						listResult = response.data;
+						console.log(listResult);
 
 			        	for (var i=0; i < listResult.length; i++){
 				          	if(listResult[i].rating !== "r" && listResult[i].rating !== "pg-13"){
