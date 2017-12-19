@@ -104,7 +104,7 @@ window.onload = function() {
 						console.log(listResult);
 
 
-						// a loop to generate and put gifs on the gifs area
+						// a loop to generate and put gifs on the gifs areaa
 			        	for (var i=0; i < listResult.length; i++){
 				          	if(listResult[i].rating !== "r" && listResult[i].rating !== "pg-13"){
 
