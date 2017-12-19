@@ -152,13 +152,12 @@ window.onload = function() {
 
 				          		//add a gif container in to gifs area
 				          		$("#gifContainer").prepend(gifDivContainer);
-
-
-				          		//a function is waiting for still or animate the clicked gif 
-				          		thirdAction ();
+	          						          		
 
 				        	}
-				        }		          
+				        }
+				        //a function is waiting for still or animate the clicked gif 
+				        thirdAction ();		          
 			      
 				  });
 
