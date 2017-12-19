@@ -1,3 +1,12 @@
+body {
+  /*font-family: 'Orbitron', sans-serif;*/
+  background-color: blue;	
+  /*background: url("../images/usa.jpg");*/
+  font-family: 'Fredoka One', cursive;
+  font-size: 20px;
+
+}
+
 .widthRating{
 	max-width: 100px;
 
@@ -30,13 +39,25 @@
 
 #buttonContainer{
 	background-color: blue;
+	padding: 5px;
+	margin-left: 20px;
+	
 }
 
 
 #searchTerm{
 	background-color: blue;
+	padding: 10px;
+	/*margin: 10px;*/
 }
 
 #gifContainer{
 	background-color: blue;
+}
+
+#formContainer{
+	width: 250px;
+	margin-left: 30px;
+
+
 }

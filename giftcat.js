@@ -25,6 +25,8 @@ window.onload = function() {
 				//add a class: "animal"
 				buttonAux.addClass("animal");
 
+				buttonAux.addClass("btn btn-default");
+
 				//Add a data-attribute with the value of the animals at index i
 				buttonAux.attr("data-name", animals[i]);
 

@@ -13,7 +13,7 @@
   
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   
-  <link rel="stylesheet" type="text/css" href="style.css">
+  
 <!-- Latest compiled and minified CSS -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -21,6 +21,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
 
 
 
@@ -30,17 +32,18 @@
   
   <div id = "buttonContainer"></div>
   <div class="row">
-            <div id = "gifContainer" class = "col-md-9"></div>
-            <div id ="searchTerm" class= "col-md-3">
-              <form id="formContainer">
-                <label for="animal-input">Add a Animal Here</label>
-                <input type="text" class="inText" id="animal-input"><br>
+            <div id = "gifContainer" class = "btn-group col-md-9"></div>
 
-                <!-- Button triggers new movie to be added -->
-                <input id="add-animal" type="submit" value="Add a Animal Here">
-                <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-              </form>
+            <div id ="searchTerm" class= "col-md-3">
+              <div id="formContainer" class="input-group">
+                    <span class="input-group-btn">
+                      <button id="add-animal" class="btn btn-default" type="button">Go!</button>
+                    </span>
+                    <input id="animal-input" type="text" class="form-control inText" placeholder="Add an Animal Here">
+              </div><!-- /input-group -->
+             
             </div>
+
   </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
